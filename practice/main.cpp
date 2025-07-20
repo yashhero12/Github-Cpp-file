@@ -1,7 +1,21 @@
 #include <iostream>
 #include <string>
 
+int stringmodulesuseing(){
+    std::string variable;
+    // to store a string we use string module
+    std::cout<<"enter your variable or string you wana to store : ";
+    std::getline(std::cin,variable);
+    std::cout<<"here is your variable : "<<variable<<std::endl;
+    return 0;
+}
+
+
 int main(){
+
+    stringmodulesuseing();
+
+
     // int age;
     // std::string name;
     // std::cout << "please enter your name and age : " << std::endl;
@@ -25,7 +39,7 @@ int main(){
     // int random ; 
     // std::cout<<"random value : "<<random<<std::endl;
 
-    
+
 
     return 0;
 }
